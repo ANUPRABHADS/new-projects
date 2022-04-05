@@ -1,0 +1,30 @@
+from turtle import Turtle,Screen
+timmy = Turtle()
+timmy.pen(fillcolor="medium slate blue", pencolor="deep pink", pensize=5)
+timmy.speed(1)
+timmy.forward(100)
+timmy.right(90)
+
+timmy.backward(100)
+timmy.right(90)
+timmy.forward(100)
+timmy.left(90)
+timmy.forward(100)
+
+timmy.goto(100,100)
+timmy.reset()
+timmy.pen(fillcolor="medium violet red", pencolor="purple", pensize=5)
+timmy.circle(120, 360)
+timmy.penup()
+timmy.right(90)
+timmy.forward(50)
+timmy.right(90)
+timmy.pendown()
+timmy.dot()
+timmy.shape("turtle")
+timmy.pen(fillcolor="violet", pencolor="royal blue", pensize=5)
+timmy.fd(50); timmy.dot(20, "dark orchid"); timmy.fd(50)
+
+screen = Screen()
+screen.exitonclick()
+
